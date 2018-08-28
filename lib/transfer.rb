@@ -14,7 +14,7 @@ class Transfer
   end
   
   def execute_transaction
-    @sender
+    @sender.deposit()
   end
     
 end
